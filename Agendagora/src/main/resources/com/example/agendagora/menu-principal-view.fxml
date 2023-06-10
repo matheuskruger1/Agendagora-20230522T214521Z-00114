@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.agendagora.MenuPrincipalController">
+   <children>
+      <Button layoutX="495.0" layoutY="81.0" mnemonicParsing="false" onAction="#abrirtelaclientes" text="Clientes" />
+      <ImageView fitHeight="174.0" fitWidth="305.0" layoutX="-9.0" layoutY="-23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@AGENDAGORA__1_-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="494.0" layoutY="136.0" mnemonicParsing="false" text="Serviços" />
+      <Button layoutX="494.0" layoutY="190.0" mnemonicParsing="false" text="Projetos" />
+      <Button layoutX="477.0" layoutY="27.0" mnemonicParsing="false" onAction="#abrirtelaconfiguracoes" prefHeight="25.0" prefWidth="94.0" text="Configurações" />
+      <Button layoutX="495.0" layoutY="271.0" mnemonicParsing="false" onAction="#voltar" prefHeight="25.0" prefWidth="29.0" text="Voltar">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="@sair__1_-removebg-preview.png" />
+               </source>
+            </ImageInput>
+         </effect></Button>
+   </children>
+</AnchorPane>
